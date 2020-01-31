@@ -9,7 +9,7 @@ import javax.swing.text.MaskFormatter;
 
 
 
-public class Exercice1 {
+public class ValidatorCnpj {
 
 	public static void main(String[] args) {
 		//class to read from user
