@@ -2,9 +2,6 @@ package br.com.rest.restExercises;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.TimeZone;
 
@@ -15,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import br.com.rest.restExercises.model.TimeZoneDTO;
+import br.com.rest.restExercises.dto.TimeZoneDTO;
 
 /**
  * @author Luizg

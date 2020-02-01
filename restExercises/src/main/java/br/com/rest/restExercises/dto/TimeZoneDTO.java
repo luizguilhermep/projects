@@ -1,4 +1,4 @@
-package br.com.rest.restExercises.model;
+package br.com.rest.restExercises.dto;
 
 public class TimeZoneDTO {
 	
