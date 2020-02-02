@@ -38,6 +38,7 @@ class RestExercisesApplicationTests {
 		//Retirando T e Z, pois estava dando erro de parse
 		dateTimeUTC = dateTimeUTC.replace( "T" , " " ) 
 								 .replace( "Z" , "" );
+		
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 		sdf.setTimeZone(TimeZone.getTimeZone("UTC-3"));
 		try {
